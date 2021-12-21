@@ -7,22 +7,6 @@
     <title>Letter</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oooh+Baby&family=Waterfall&display=swap');
-        @media only screen and (min-width: 600px) {
-            img{
-                /* /* position: relative; */
-                filter: contrast(200%);
-                filter: hue-rotate(20deg); */
-            }
-            div{
-                /* position: absolute; */
-                /* top:45px;
-                left: 30px; */
-                /* height: 190px; */
-                /* width:450px; */
-                background-color: #362729;
-                /* color: azure; */
-            }
-        }
         img{
             position: relative;
             filter: contrast(200%);
@@ -50,20 +34,43 @@
             font-family: 'Waterfall', cursive;
             font-size: 70px;
         } */
-    </style>
+        @media only screen and (max-width: 600px) {
+            img{
+                /* /* position: relative; */
+                filter: contrast(200%);
+                filter: hue-rotate(20deg);
+                height: 320px;
+                width:520px;
+            }
+            div{
+                /* position: absolute; */
+                top:35px;
+                left: 30px;
+                height: 260px;
+                width:470px;
+                background-color: #eb3e5b;
+                
+                /* color: azure; */
+            }
+            p{
+                font-size: 39px;
+
+            }
+        }
+        </style>
 </head>
 <body>
     <img src="./img/candy4.png" alt="Letter">
     <div>
         <p>I know thing have been tought for you lately, but you're the kindest person I know. I'm always here if you need to chat.</p>
-    <!-- <pre>
-     I know thing have been tought 
+        <!-- <pre>
+            I know thing have been tought 
       for you lately, but you're the 
-     kindest person I know. I'm always 
-         here if you need to chat.
-        </pre> -->
-    </div>
-    <link rel="stylesheet" href="style.css">
+      kindest person I know. I'm always 
+      here if you need to chat.
+    </pre> -->
+</div>
+<link rel="stylesheet" href="style.css">
 </body>
 <script>
 //     let params = new URLSearchParams(location.search);
