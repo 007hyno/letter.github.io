@@ -58,7 +58,9 @@ background-size: cover;
                 left: 20px;
                 height: 215px;
                 width:390px;
-                background-color: #eb3e5b;
+                    
+                
+                background-color: #eb4b65ec;
                 padding-bottom: 10px;
                 /* color: azure; */
             }
@@ -68,35 +70,12 @@ background-size: cover;
                 
             }
         }
-        @media only screen and (max-width: 250px) {
-            img{
-                /* /* position: relative; */
-                filter: contrast(200%);
-                filter: hue-rotate(20deg);
-                height: 220px;
-                width:420px;
-            }
-            div{
-                /* position: absolute; */
-                top:35px;
-                left: 30px;
-                height: 160px;
-                width:370px;
-                background-color: #eb3e5b;
-                
-                /* color: azure; */
-            }
-            p{
-                font-size: 39px;
-        
-            }
-        }
         </style>
 </head>
 <body>
     <img src="./img/candy4.png" alt="Letter">
     <div>
-        <p>I know thing have been tought for you lately, but you're the kindest person I know. I'm always here if you need to chat.</p>
+        <p id="p">I know thing have been tought for you lately, but you're the kindest person I know. I'm always here if you need to chat.</p>
         <!-- <pre>
             I know thing have been tought 
             for you lately, but you're the 
@@ -116,9 +95,12 @@ let params = (new URL(currentUrl)).searchParams;
 params.get('name') // "n1"
 var naa = params.getAll('name') // ["n1", "n2"]
 var nam = `-to ${naa}`;
+var q = "I know thing have been tought for you lately, but you're the kindest person I know. I'm always here if you need to chat."
+var q1 = "I know managing time have been tought for you lately, but you're the kindest person I know. I'm always here if you need to chat."
 console.log(naa);
 (function() {
     document.getElementById("to").innerHTML=nam;
+    document.getElementById("p").innerHTML=q1;
 })();
 
 
