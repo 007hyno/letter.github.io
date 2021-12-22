@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Letter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oooh+Baby&family=Waterfall&display=swap');
         body{
@@ -18,19 +19,25 @@ background-size: cover;
             filter: contrast(200%);
             filter: hue-rotate(20deg);
         }
+        .heading{
+            font-weight: 900;
+            font-family: 'Oooh Baby', cursive;
+            padding: 1px;
+            font-size: 30px;
+        }
         div{
             position: absolute;
-            top:45px;
+            top:85px;
             left: 30px;
             /* font-family: 'Caveat', cursive; */
             /* font-family: 'Oooh Baby', cursive; */
             font-family: 'Waterfall', cursive;
             height: 490px;
             width:750px;
-            background-color: #eb3e5b;
+            /* background-color: #eb3e5b; */
             color: azure;
         }
-        p{
+        #text{
             font-weight: 800;
             text-align: center;
             padding: 25px;
@@ -54,17 +61,18 @@ background-size: cover;
             }
             div{
                 /* position: absolute; */
-                top:25px;
-                left: 20px;
+                top:75px;
+                left: 17px;
                 height: 215px;
                 width:390px;
                     
                 
-                background-color: #eb4b65ec;
+                /* background-color: #eb4b65ec; */
+                color: #eb4b65ec;
                 padding-bottom: 10px;
                 /* color: azure; */
             }
-            p{
+            #text{
                 font-size: 38px;
                 padding: 1px;
                 
@@ -72,10 +80,13 @@ background-size: cover;
         }
         </style>
 </head>
-<body>
+<body class=" text-center">
+    <p class="heading text-white">
+        Happy Notes
+    </p>
     <img src="./img/candy4.png" alt="Letter">
     <div>
-        <p id="p">I know thing have been tought for you lately, but you're the kindest person I know. I'm always here if you need to chat.</p>
+        <p id="text">I know thing have been tought for you lately, but you're the kindest person I know. I'm always here if you need to chat.</p>
         <!-- <pre>
             I know thing have been tought 
             for you lately, but you're the 
