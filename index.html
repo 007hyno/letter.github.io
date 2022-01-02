@@ -15,7 +15,7 @@ background-attachment: fixed;
 background-size: cover;   
         }
         h1{
-            font-size: 20px;
+            font-size: 22px;
             font-weight: 900;
             font-family: 'Oooh Baby', cursive;
         }
@@ -49,36 +49,53 @@ background-size: cover;
             font-size: 70px;
         }
         h1{
-            color: #ffd3cd;
+            color: #f0dbd8;
             font-family: 'Oooh Baby', cursive;
+            font-weight: 900;
         }
         /* pre{
             font-family: 'Waterfall', cursive;
             font-size: 70px;
         } */
         @media only screen and (max-width: 450px) {
+            .heading{
+                background-color: #f5214486;
+            font-family: 'Oooh Baby', cursive;
+            padding: 1px;
+            font-size: 30px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 3px #3635353d;
+            margin: 5px;
+        }
             img{
+                /* visibility: hidden; */
                 /* /* position: relative; */
                 filter: contrast(200%);
                 filter: hue-rotate(20deg);
                 height: 260px;
-                width:420px;
+                width:  auto;
+                border-radius: 10px;
             }
-            div{
+            div{    
+                border-radius: 10px;
                 /* position: absolute; */
-                top:75px;
-                left: 17px;
-                height: 215px;
-                width:390px;
+                top:70px;
+                left: 12px;
+                height: 205px;
+                width:auto;
+                margin-right: 12px;
+                /* width:390px; */
                     
                 
-                /* background-color: #eb4b65ec; */
-                color: #eb4b65ec;
-                padding-bottom: 10px;
+                background-color: #fdebebec;
+                color: #fd3053ec;
+                padding-bottom: 5px;
+                /* padding: 10; */
+                /* padding-bottom: 5px; */
                 /* color: azure; */
             }
             #text{
-                font-size: 38px;
+                font-size: 32px;
                 padding: 1px;
                 
             }
@@ -87,11 +104,13 @@ background-size: cover;
 </head>
 <body class=" text-center">
     <p class="heading text-white">
-        Happy Notes
+        <u>    
+            Happy Notes
+        </u>
     </p>
     <img src="./img/candy4.png" alt="Letter">
     <div>
-        <p id="text">I know thing have been tought for you lately, but you're the kindest person I know. I'm always here if you need to chat.</p>
+        <p id="text">I know thing have been tought for you lately, but you're the kindest person I know. I believe in you. So just relax and do your best.</p>
         <!-- <pre>
             I know thing have been tought 
             for you lately, but you're the 
@@ -119,8 +138,6 @@ console.log(naa);
     document.getElementById("to").innerHTML=nam;
     document.getElementById("p").innerHTML=q1;
 })();
-
-
 // <a href="page2.php?myNumber=1&myFruit=orange">Next page</a> 
 </script>
 
