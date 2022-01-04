@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oooh+Baby&family=Waterfall&display=swap');
         body{
-            height: 100%;
+            /* height: 100%; */
             background-color: #ffffff;
             background-image: linear-gradient(0deg, #ffffff 0%, #fec8cf 100%);
         }
@@ -11,22 +11,23 @@
             font-size: 30px;
             text-shadow: 2px 1px 4px rgb(247, 204, 204);
             box-shadow: 7px 8px 0.5rem #0000003a;
+            background-color: #f5214486;
+            font-family: 'Oooh Baby', cursive;
+            padding: 1px;
+            font-size: 30px;
+            border-radius: 10px;
+            margin: 5px;
+            margin-bottom: 20px;
         }
         div{
-
-            box-shadow: 0 0 0 5px #ffd0c9;
-            outline: dashed 5px #ff6a88b6;
             letter-spacing: 1.5px;
             text-align: center;
-            /* position: absolute; */
-            /* top:85px; */
             text-shadow:2px 2px 4px #fd7349;
-            /* left: 30px; */
             background-color: #FF9A8B;
             background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
             font-family: 'Waterfall', cursive;
-            height: 490px;
-            width:750px;
+            /* height: 490px;
+            width:750px; */
             color: #ffffff;
         }
         #text{
@@ -46,19 +47,18 @@
         }
         @media only screen and (max-width: 450px) {
             .heading{
-                background-color: #f5214486;
+                /* background-color: #f5214486;
             font-family: 'Oooh Baby', cursive;
             padding: 1px;
             font-size: 30px;
             border-radius: 10px;
-            /* box-shadow: 2px 2px 3px #3635353d; */
             margin: 5px;
-            margin-bottom: 20px;
+            margin-bottom: 20px; */
         }
             div{    
                 border-radius: 10px;
-                height: 205px;
-                width:auto;
+                /* height: 205px;
+                width:auto; */
                 margin:0 12px;
                 padding:0 10px;
             }
