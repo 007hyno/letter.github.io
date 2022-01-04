@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oooh+Baby&family=Waterfall&display=swap');
         body{
+            height: 100%;
             background-color: #ffffff;
             background-image: linear-gradient(0deg, #ffffff 0%, #fec8cf 100%);
-        }
-        img{
-            visibility: hidden;
-            position: relative;
-            filter: contrast(200%);
-            filter: hue-rotate(20deg);
         }
         .heading{
             font-weight: 900;
@@ -15,21 +10,20 @@
             padding: 1px;
             font-size: 30px;
             text-shadow: 2px 1px 4px rgb(247, 204, 204);
+            box-shadow: 7px 8px 0.5rem #0000003a;
         }
         div{
-            /* border-style: dashed; */
-            border: 3px dashed #fffffffb;
-            text-align: center;
-            position: absolute;
-            top:85px;
-            text-shadow:2px 2px 4px #fd7349;
-            left: 30px;
-            /* background-color: #fa5d5dec; */
 
+            box-shadow: 0 0 0 5px #ffd0c9;
+            outline: dashed 5px #ff6a88b6;
+            letter-spacing: 1.5px;
+            text-align: center;
+            /* position: absolute; */
+            /* top:85px; */
+            text-shadow:2px 2px 4px #fd7349;
+            /* left: 30px; */
             background-color: #FF9A8B;
             background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
-
-
             font-family: 'Waterfall', cursive;
             height: 490px;
             width:750px;
@@ -42,10 +36,12 @@
             font-size: 70px;
         }
         h1{
-            color: #f0dbd8;
+            color: #413d3d;
             font-family: 'Oooh Baby', cursive;
             font-weight: 900;
             font-size: 22px;
+            padding: 5px;
+            text-shadow:1px 1px 4px #616060;
             background-color: transparent;
         }
         @media only screen and (max-width: 450px) {
@@ -55,24 +51,15 @@
             padding: 1px;
             font-size: 30px;
             border-radius: 10px;
-            box-shadow: 2px 2px 3px #3635353d;
+            /* box-shadow: 2px 2px 3px #3635353d; */
             margin: 5px;
+            margin-bottom: 20px;
         }
-            img{
-                /* filter: contrast(200%);
-                filter: hue-rotate(20deg); */
-                height: 260px;
-                width:  auto;
-                border-radius: 10px;
-            }
             div{    
                 border-radius: 10px;
-                top:70px;
-                left: 12px;
                 height: 205px;
                 width:auto;
-                margin-right: 12px;
-                /* width:390px; */
+                margin:0 12px;
                 padding:0 10px;
             }
             #text{
