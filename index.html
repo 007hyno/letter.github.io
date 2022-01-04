@@ -9,8 +9,10 @@
 </head>
 <body class=" text-center">
     <p class="heading text-white">
-        <u>    
-            Happy Notes
+        <u>  
+            <b>
+                Happy Notes
+            </b>  
         </u>
     </p>
     <div>
@@ -22,7 +24,7 @@
 </div>
 <center>
 
-    <h1 id="to">  <b>  to  </b> </h1>
+    <h1 id="to">  <b>  To  </b> </h1>
 
 </center>
 <link rel="stylesheet" href="style.css">
@@ -32,7 +34,7 @@ var currentUrl = window.location.href;
 let params = (new URL(currentUrl)).searchParams;
 params.get('name') // "n1"
 var naa = params.getAll('name') // ["n1", "n2"]
-var nam = `-to ${naa}`;
+var nam = `-To ${naa}`;
 var q = "I know thing have been tough for you lately, but you're the kindest person I know. I'm always here if you need to chat."
 var q1 = "I know managing time have been tought for you lately, but you're the kindest person I know. I'm always here if you need to chat."
 console.log(naa);

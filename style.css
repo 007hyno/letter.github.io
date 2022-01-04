@@ -8,19 +8,22 @@
             font-weight: 900;
             font-family: 'Oooh Baby', cursive;
             padding: 1px;
-            font-size: 30px;
-            text-shadow: 2px 1px 4px rgb(247, 204, 204);
+            font-size: 60px;
+            color: #fa7979;
+            text-shadow: 2px 2px 5px #faa0a0;
+            background-color: #ffe3e3f6;
             box-shadow: 7px 8px 0.5rem #0000003a;
-            background-color: #f5214486;
             font-family: 'Oooh Baby', cursive;
             padding: 1px;
-            font-size: 30px;
+            font-size: 39px;
             border-radius: 10px;
             margin: 5px;
             margin-bottom: 20px;
         }
         div{
-            letter-spacing: 1.5px;
+            border-radius: 10px ;
+            margin:0 100px;
+            box-shadow: 2px 2px 3px #0000004f;
             text-align: center;
             text-shadow:2px 2px 4px #fd7349;
             background-color: #FF9A8B;
@@ -33,37 +36,35 @@
         #text{
             font-weight: 800;
             text-align: center;
-            padding: 25px;
-            font-size: 70px;
+            padding: 2px;
+            font-size: 50px;
         }
         h1{
+            text-decoration: underline;
             color: #ff8f8f;
             font-family: 'Oooh Baby', cursive;
             font-weight: 900;
-            font-size: 22px;
+            font-size: 32px;
             padding: 5px;
             text-shadow:1px 1px 4px #fc7e7e;
             background-color: transparent;
         }
         @media only screen and (max-width: 450px) {
             .heading{
-                /* background-color: #f5214486;
-            font-family: 'Oooh Baby', cursive;
-            padding: 1px;
-            font-size: 30px;
-            border-radius: 10px;
-            margin: 5px;
-            margin-bottom: 20px; */
-        }
+                font-size: 25px;
+            }
             div{    
                 border-radius: 10px;
                 /* height: 205px;
                 width:auto; */
                 margin:0 12px;
-                padding:0 10px;
+                padding:0 1px;
             }
             #text{
                 font-size: 32px;
                 padding: 1px;
+            }
+            h1{
+                font-size: 22px;
             }
         }
