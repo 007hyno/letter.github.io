@@ -8,30 +8,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
 </head>
 <body class=" text-center">
-    <p class="heading text-white">
-        <u>  
-            <b>
-                Happy Notes
+    <canvas id="can" ></canvas>
+    <footer></footer>
+    <!-- <canvas id="can" width="1500" height="700"></canvas> -->
+    <section class="man">
+
+        <p class="heading text-white">
+            
+            <u>  
+                <b>
+                    Happy Notes
             </b>  
-        </u>
+        </u>-
     </p>
     <div>
         <p id="text">I know thing have been tough for you lately, but you're the kindest person I know. I believe in you. So just relax and do your best.</p>
-</div>
-<br>
+    </div>
+    <br>
     <div>
         <p id="text">Will keep updating this...</p>
 </div>
 <center>
-
-    <h1 id="to">  <b>  To  </b> </h1>
-
+    
+    <h1 id="to">  <b>    </b> </h1>
+    
 </center>
+    </section>
 <link rel="stylesheet" href="style.css">
 </body>
+<script src="snow.js"></script>
 <script>
-var currentUrl = window.location.href;
-let params = (new URL(currentUrl)).searchParams;
+    var currentUrl = window.location.href;
+    let params = (new URL(currentUrl)).searchParams;
 params.get('name') // "n1"
 var naa = params.getAll('name') // ["n1", "n2"]
 var nam = `-To ${naa}`;

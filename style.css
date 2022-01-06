@@ -1,53 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oooh+Baby&family=Waterfall&display=swap');
-        body{
-            /* height: 100%; */
-            background-color: #ffffff;
-            background-image: linear-gradient(0deg, #ffffff 0%, #fec8cf 100%);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0;
+}
+html {
+    height: 100%;
+}
+body{
+            min-height: 100vh;
+            /* background-image: linear-gradient(0deg, #fcf1f1 0%, #f8bbc3 100%); */
+            overflow: hidden;
+            background-color: #ffe3e3f6;
+            /* background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23FF9A8B' fill-opacity='0.89' fill-rule='evenodd'/%3E%3C/svg%3E");    */
         }
+        .man{
+                 top: 1px;
+                 position: absolute;
+             }
         .heading{
             font-weight: 900;
-            font-family: 'Oooh Baby', cursive;
+            /* font-family: 'Dancing Script', cursive; */
             padding: 1px;
             font-size: 60px;
-            color: #fa7979;
+            font-family: 'Dancing Script', cursive;
+            /* color: #fa7979; */
+            color: #ff8f8f;
             text-shadow: 2px 2px 5px #faa0a0;
             background-color: #ffe3e3f6;
             box-shadow: 7px 8px 0.5rem #0000003a;
-            font-family: 'Oooh Baby', cursive;
             padding: 1px;
             font-size: 39px;
-            border-radius: 10px;
+            border-radius: 6px;
             margin: 5px;
             margin-bottom: 20px;
+            border-top: 3px solid #f7f4f4;
+            border-bottom: 3px solid #fc8c8c;
         }
         div{
+            border-top: 2px solid #fae1e1;
+            border-left: 2px solid #fff5f5;
+            border-bottom: 2px solid #fdb1b1;
+            border-right: 2px solid #fcc6c6;
             border-radius: 10px ;
             margin:0 100px;
             box-shadow: 2px 2px 3px #0000004f;
             text-align: center;
-            text-shadow:2px 2px 4px #fd7349;
             background-color: #FF9A8B;
             background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
-            font-family: 'Waterfall', cursive;
             /* height: 490px;
             width:750px; */
-            color: #ffffff;
         }
         #text{
+            text-shadow:2px 2px 4px #fd7349;
+            color: #ffffff;
+            font-family: 'Waterfall', cursive;
+            /* font-family: 'Dancing Script', cursive; */
             font-weight: 800;
             text-align: center;
             padding: 2px;
             font-size: 50px;
         }
-        h1{
+        #to{
+            font-family: 'Oooh Baby', cursive;
             text-decoration: underline;
             color: #ff8f8f;
-            font-family: 'Oooh Baby', cursive;
-            font-weight: 900;
-            font-size: 32px;
             padding: 5px;
             text-shadow:1px 1px 4px #fc7e7e;
-            background-color: transparent;
+        }
+        footer{
+            margin-top: -1px;
+            background-color: #fdfeff;
+            /* background-color: white; */
+            height:100px;
+            /* position:fixed; */
         }
         @media only screen and (max-width: 450px) {
             .heading{
@@ -55,8 +80,6 @@
             }
             div{    
                 border-radius: 10px;
-                /* height: 205px;
-                width:auto; */
                 margin:0 12px;
                 padding:0 1px;
             }
@@ -64,7 +87,8 @@
                 font-size: 32px;
                 padding: 1px;
             }
-            h1{
+            #to{
+                font-weight: bolder;
                 font-size: 22px;
             }
         }
