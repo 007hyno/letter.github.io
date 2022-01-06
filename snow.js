@@ -35,9 +35,14 @@ function Snowfall(x,y,r,s){
 }
 
 
-var times = 3000;
+// var speed = Math.random()*100;
+var speed = Math.floor(Math.random() * 200) + 500;
+var number_of_flakes = Math.floor(Math.random() * 500) + 100;
+console.log(speed);
+console.log(number_of_flakes);
+var times = number_of_flakes;
 window.setTimeout(()=>{
-}),1000;
+}),speed;
 var flake = [];
 for(var i=0;i<times;i++){
     var x=Math.random()*canvas.width;
